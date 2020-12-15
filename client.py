@@ -8,7 +8,8 @@ import json
 import requests
 import time
 
-image_path="daisy.jpg"
+# image_path="daisy.jpg"
+image_path="test_sunflowers.jpg"
 url="http://localhost:8501/v1/models/flower:predict"
 
 def predict(image_path,url):
@@ -26,7 +27,7 @@ def predict(image_path,url):
                 {
                     "b64":image_base64
                 }
-            ]
+            ]                                                                                                                                                                                                                                                                                                                                                                                                                                                           
         }
     )
 
